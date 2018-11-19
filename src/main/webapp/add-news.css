@@ -1,0 +1,25 @@
+
+#add-news-content {
+    width: 50%;
+    margin: auto;
+}
+
+#add-news-input {    
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+    margin-bottom: 16px;
+    resize: none;
+}
+
+#send-button {
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+    border-radius: 2px;
+}

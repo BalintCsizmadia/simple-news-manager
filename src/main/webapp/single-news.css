@@ -1,0 +1,49 @@
+
+.single-news-li {
+    border: 1px solid #192c31ab;
+    border-radius: 5px;
+    background-color: gainsboro;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px 28px;
+    margin: 10px;
+}
+
+#turn-left {
+    float: left;
+}
+
+#turn-right {
+    float: right;
+}
+
+#labels-content {
+    display: -webkit-inline-box;
+    text-align: center;
+}
+
+#single-label-p {
+    border: 1px solid #0B4C5F;
+    border-radius: 3px;
+    padding: 3px;
+    color: white;
+    background-color: slategrey;
+    margin: 0;
+    margin-right: 10px;
+}
+
+#title-strong {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#pTextBox {
+    background-color: #d7dada;
+    padding: 18px;
+    border: 1px solid #192c31ab;
+    border-radius: 10px;
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="add-news.css" />
+    <script src="index.js"></script>
+    <script src="all-news.js"></script>
+    <script src="add-news.js"></script>
+    <title>Add news</title>
+</head>
+
+<body>
+    <div id="menu-content">
+        <ul class="menu-ul">
+            <li class="menu-li"><a class="active" href="index.html">News</a></li>
+            <li class="menu-li"><a href="add-news.html">Add news</a></li>
+            <li class="menu-li"><a href="statistics.html">Statistics</a></li>
+        </ul>
+    </div>
+
+    <div class="border">
+        <div class="center">
+            <div id="add-news-content">
+                <h2>Add news</h2>
+                <form id="add-news-form" onsubmit="return false;">
+                    <input id="add-news-input" type="text" name="title" placeholder="title" required>
+                    <input id="add-news-input" type="text" name="labels" placeholder="labels (separate with spaces)"
+                        required>
+                    <textarea id="add-news-input" type="text" name="content" placeholder="content" required></textarea>
+                    <button id="send-button">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

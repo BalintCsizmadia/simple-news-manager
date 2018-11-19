@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="statistics.css" />
+    <script src="index.js"></script>
+    <script src="statistics.js"></script>
+    <title>Statistics</title>
+</head>
+
+<body>
+    <div id="menu-content">
+        <ul class="menu-ul">
+            <li class="menu-li"><a class="active" href="index.html">News</a></li>
+            <li class="menu-li"><a href="add-news.html">Add news</a></li>
+            <li class="menu-li"><a href="statistics.html">Statistics</a></li>
+        </ul>
+    </div>
+
+    <div class="border">
+
+        <div class="center">
+            <h2>Statistics</h2>
+            <div id="order-content">
+                <h5 id="order-by-h5">Options</h5>
+
+                <select id="statistics-select" name="statistics" onchange="onStatisticsSelect()">
+                    <option value="top"> The Top 10 label in use </option>
+                    <option value="most"> The news which contains the most words </option>
+                    <option value="avg"> The average of characters per day </option>
+                    <option value="day"> The number of news per days </option>
+                </select>
+                <br><br>
+            </div>
+            <div id="statistics-content"></div>
+        </div>
+
+    </div>
+</body>
+
+</html>
